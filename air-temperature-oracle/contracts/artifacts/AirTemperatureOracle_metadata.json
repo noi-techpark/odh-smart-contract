@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "airTemperature",
+						"type": "string"
+					}
+				],
+				"name": "LogAirTemperatureUpdated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableQuery",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_proof",
+						"type": "bytes"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "airTemperature",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "update",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AirTemperatureOracle .sol": "AirTemperatureOracle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AirTemperatureOracle .sol": {
+			"keccak256": "0xc7c4204ccd586a4bd40e7daa3cef30e8bc0151cd528045cbf18c9b503dfaa41c",
+			"urls": [
+				"bzz-raw://0f3e0aa087cb23a829be9e063746651e751542f484107277ccd5b6e0708a4f1d",
+				"dweb:/ipfs/QmPUseFQNzLoQdCH91N1N84n2j6pvDvjg7LYP9PGuyRFqX"
+			]
+		},
+		"github.com/provable-things/ethereum-api/provableAPI_0.5.sol": {
+			"keccak256": "0x194e0f6f1b2cf2eca7204430e81ebd6cc6ca449350b04ffcc9bb17c24a8094fc",
+			"urls": [
+				"bzz-raw://afbe8ed8f8729fc3622144a244e9f64e0fb91084828ab68e9508aa0babe44e6e",
+				"dweb:/ipfs/QmTBzJ6hvap4Ark27NGPU4HyY9F6tTcR5PxMkMvQRxzeLu"
+			]
+		}
+	},
+	"version": 1
+}
