@@ -2,6 +2,8 @@
 A simple Ethereum smart contract that is an Oracle that gets the air temperature of the city of Bolzano and
 saves it on the storage of the smart contract.
 
+Running contract on Rinkeby: (rinkeby.etherscan.io/address/0xe72f5b1c2aa68be6d249f51e02e2902950f923cf)[https://rinkeby.etherscan.io/address/0xe72f5b1c2aa68be6d249f51e02e2902950f923cf#events]
+
 **Table of Contents** 
 
 - [Air Temperature Oracle using Remix Web IDE and Provable API](#air-temperature-oracle-using-remix-web-ide-and-provable-api)
