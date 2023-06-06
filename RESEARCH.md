@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Research
 Ethereum smart contracts and Oracles are quite new technology, so research is need to understand the topic and to see if it's possible using the Open Data Hub as an Oracle and building smart contracts on top of it.
 

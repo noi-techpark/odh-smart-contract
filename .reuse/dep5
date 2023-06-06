@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: odh-smart-contract
+Upstream-Contact: NOI Techpark <digital@noi.bz.it>
+Source: https://github.com/noi-techpark/odh-smart-contract
+
+Files: .gitignore .env LICENSE *.json
+Copyright: (c) NOI Techpark <digital@noi.bz.it>
+License: CC0-1.0
+
+Files: contracts/provableAPI_0.6.sol
+Copyright: (c) 2015-2016 Oraclize SRL
+           (c) 2016-2019 Oraclize LTD
+           (c) 2019-2020 Provable Things Limited
+License: MIT

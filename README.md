@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # odh-smart-contract
 A smart contract with an Ethereum oracle to write the air temperature of Bolzano to the Ethereum blockchain.  
 Another smart contract then uses the data from the blockchain to pay 0.01 ETH if the temperature is below 15 degrees celsius.  
