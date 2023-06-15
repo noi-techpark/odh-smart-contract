@@ -27,7 +27,7 @@ contract WeatherOracle is usingProvable {
            LogNewProvableQuery("Provable query was NOT sent, please add some ETH to cover for the query fee");
        } else {
            LogNewProvableQuery("Provable query was sent, standing by for the answer..");
-           provable_query("URL", "json(https://mobility.api.opendatahub.bz.it/v2/flat%2Cnode/MeteoStation/%2A/latest?limit=200&select=tname%2C%20mvalue&where=scode.eq.83200MS&distinct=true&timezone=UTC).data[1]");
+           provable_query("URL", "json(https://mobility.api.opendatahub.com/v2/flat%2Cnode/MeteoStation/%2A/latest?limit=200&select=tname%2C%20mvalue&where=scode.eq.83200MS&distinct=true&timezone=UTC).data[1]");
        }
    }
 }
